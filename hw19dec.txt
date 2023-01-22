@@ -1,0 +1,17 @@
+Найти всех сотрудников, работающих в департаменте с id 90
+
+select
+first_name,
+last_name
+from employees
+where department_id in (90);
+
+
+Найти всех сотрудников, зарабатывающих больше 5000
+
+select
+first_name,
+last_name,
+salary
+from employees
+where salary > 5000; 
